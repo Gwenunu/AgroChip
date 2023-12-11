@@ -1,10 +1,10 @@
 | **1. Objectifs** |
 | ----------------- |
-| La puce vise à fournir un suivi de santé en temps réel pour améliorer la gestion du bétail. |
+| La puce vise à fournir un suivi de santé en temps réel pour un suivi de santé de la vache. |
 
 | **2. Fonctionnalités** |
 | ----------------------- |
-| - Capteurs de santé : Température corporelle, Fréquence cardiaque, Activité de rumination. |
+| - Capteurs de santé : Température corporelle, Fréquence cardiaque, Activité de rumination, Analyse Sanguine. |
 | - Localisation en temps réel. |
 | - Stockage de données avec historique détaillé. |
 | - Transmission efficace des données. |
@@ -16,6 +16,8 @@
 | ------------------------- |
 | - Taille minimale pour le confort des animaux. |
 | - Utilisation de matériaux biocompatibles. |
+| -	Réparabilité : Indice de réparabilité 5/10 |
+
 
 | **4. Tests et Validation** |
 | ------------------------- |
@@ -30,6 +32,8 @@
 | ------------------- |
 | - Manuel d'utilisation détaillé pour les éleveurs. |
 | - Support technique pour répondre aux questions et résoudre les problèmes. |
+| - Application et site web : FAQ, Chatbot |
+
 
 | **7. Planning et Livrables** |
 | --------------------------- |
