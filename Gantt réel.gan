@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Gantt Réel" company="Agro Chip" webLink="" view-date="2023-11-29" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
+<?xml version="1.0" encoding="UTF-8"?><project name="Gantt Réel" company="Agro Chip" webLink="" view-date="2023-11-30" view-index="0" gantt-divider-location="351" resource-divider-location="300" version="3.2.3247" locale="fr_FR">
     <description>
         <![CDATA[Gantt Réel du projet, donc ce qui se fait réellement pour le projet]]>
     </description>
@@ -9,8 +9,8 @@
         <option id="filter.completedTasks" value="false"/>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nom" width="199" order="0"/>
-        <field id="1" name="Rôle par défaut" width="82" order="1"/>
+        <field id="0" name="Nom" width="206" order="0"/>
+        <field id="1" name="Rôle par défaut" width="90" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -48,16 +48,18 @@ Création de différents bêtes à cornes afin d'y voir plus clair]]>
         <task id="4" name="Création du SWOT" color="#8cb6ce" meeting="false" start="2023-12-04" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true"/>
         <task id="5" name="Ebauche de l'interface de l'appli" color="#8cb6ce" meeting="false" start="2023-12-04" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true"/>
         <task id="6" name="Création du Gantt prévisionnel" color="#8cb6ce" meeting="false" start="2023-12-04" duration="1" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true"/>
-        <task id="7" name="Création d'un Buisness plan" color="#8cb6ce" meeting="false" start="2023-12-04" duration="10" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true"/>
-        <task id="8" name="Création d'un cahier des charges" color="#8cb6ce" meeting="false" start="2023-12-11" duration="5" complete="0" thirdDate="2023-11-30" thirdDate-constraint="0" expand="true"/>
+        <task id="7" name="Création d'un Buisness plan" color="#8cb6ce" meeting="false" start="2023-12-04" duration="31" complete="0" thirdDate="2023-10-09" thirdDate-constraint="0" expand="true"/>
+        <task id="8" name="Création d'un cahier des charges" color="#8cb6ce" meeting="false" start="2023-12-11" duration="26" complete="0" thirdDate="2023-11-30" thirdDate-constraint="0" expand="true"/>
         <task id="9" name="Recherches des mesures que la puce doit analyser" color="#8cb6ce" meeting="false" start="2023-12-11" duration="1" complete="0" thirdDate="2023-11-30" thirdDate-constraint="0" expand="true">
             <notes>
                 <![CDATA[Recherche des mesures que la puce devrait analyser : fer, gloubules nlancs etc
 Quelle quantité de chaque données mesuré]]>
             </notes>
         </task>
-        <task id="10" name="Création du Gantt Réel" color="#8cb6ce" meeting="false" start="2023-12-11" duration="1" complete="0" thirdDate="2023-11-30" thirdDate-constraint="0" expand="true"/>
+        <task id="10" name="Gantt Réel" color="#8cb6ce" meeting="false" start="2023-12-11" duration="1" complete="0" thirdDate="2023-11-30" thirdDate-constraint="0" expand="true"/>
         <task id="11" name="Création d'une ébauche d'une carte/puce" color="#8cb6ce" meeting="false" start="2023-12-11" duration="1" complete="0" thirdDate="2023-11-29" thirdDate-constraint="0" expand="true"/>
+        <task id="12" name="Création d'un site internet" color="#8cb6ce" meeting="false" start="2023-12-21" duration="18" complete="0" thirdDate="2023-11-29" thirdDate-constraint="0" expand="true"/>
+        <task id="13" name="Création du FAST" color="#8cb6ce" meeting="false" start="2024-01-15" duration="1" complete="0" thirdDate="2023-11-30" thirdDate-constraint="0" expand="true"/>
     </tasks>
     <resources>
         <resource id="0" name="Gwen" function="Default:0" contacts="" phone=""/>
