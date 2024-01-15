@@ -1,28 +1,30 @@
 | **1. Objectifs** |
 | ----------------- |
-| La puce vise à fournir un suivi de santé en temps réel pour un suivi de santé de la vache. |
+| La puce vise à fournir un suivi de santé en temps réel de l'animal. |
 
 | **2. Fonctionnalités** |
 | ----------------------- |
 | - Capteurs de santé : Température corporelle, Fréquence cardiaque, Activité de rumination, Analyse Sanguine. |
 | - Localisation en temps réel. |
 | - Stockage de données avec historique détaillé. |
-| - Transmission efficace des données. |
-| - Alimentation énergétique optimisée. |
+| - Transmission/Réception efficace des données. |
+| - Batterie : durée de vie à minima de 5 ans (style pacemaker) |
 | - Intégration avec les systèmes existants. |
 | - Sécurité des données. |
 
 | **3. Design et Ergonomie** |
 | ------------------------- |
 | - Taille minimale pour le confort des animaux. |
-| - Utilisation de matériaux biocompatibles. |
-| -	Réparabilité : Indice de réparabilité 5/10 |
-
+| - Matériaux : polymères (polyéthylène, polypropylène), céramiques, titane, verre bioactif, silicone médical, ou des matériaux composites. |
+| - Respecte la santé des animaux. |
+| - Le carter doit être étanche. |
+| -	Réparabilité possible. |
+| -	Réutilisation de la puce. |
 
 | **4. Tests et Validation** |
 | ------------------------- |
 | - Tests en laboratoire pour évaluer la précision et la stabilité. |
-| - Tests sur le terrain pour surveiller la réaction des vaches. |
+| - Tests sur le terrain pour surveiller la réaction des animaux. |
 
 | **5. Conformité aux Normes et Régulations** |
 | ------------------------------------------- |
@@ -33,22 +35,3 @@
 | - Manuel d'utilisation détaillé pour les éleveurs. |
 | - Support technique pour répondre aux questions et résoudre les problèmes. |
 | - Application et site web : FAQ, Chatbot |
-
-
-| **7. Planning et Livrables** |
-| --------------------------- |
-| - Phase de conception : Spécifications techniques, Schémas de conception. |
-| - Phase de développement : Prototype fonctionnel. |
-| - Phase de test : Résultats des tests en laboratoire et sur le terrain. |
-| - Phase de déploiement : Version finale de la puce électronique. |
-
-| **8. Budget et Financement** |
-| --------------------------- |
-| - Estimation des coûts pour le développement, les tests et la production en série. |
-| - Identification des sources potentielles de financement. |
-
-| **9. Matériaux** |
-| ---------------- |
-| - Utilisation de matériaux biocompatibles tels que des polymères (polyéthylène, polypropylène), céramiques, titane, verre bioactif, silicone médical, ou des matériaux composites spécialement conçus. |
-| - Tests approfondis pour évaluer la biocompatibilité des matériaux choisis. |
-
