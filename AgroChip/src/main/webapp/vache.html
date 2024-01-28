@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Vache</title>
+</head>
+<body><h2 id="radio">
+<input type="radio" value="0" name="liste" checked>Gwen<br/>
+<input type="radio" value="1" name="liste">Rose<br/>
+<input type="radio" value="2" name="liste">Julie<br/>
+<input type="radio" value="3" name="liste">Jade<br/>
+<br/><br/>
+<label>Rythme cardiaque<input type="range" id="0" min="60" max="90"></label><br/>
+<label>Globules blancs<input type="range" id="1" min="0" max="16000"></label><br/>
+<label>Glucose<input type="range" id="2" min="200" max="1000"></label><br/>
+<label>Fréquence respiratoire<input type="range" id="3" min="0" max="50"></label><br/>
+</h2>
+<script>
+	document.getElementById("0").addEventListener("click",function() {
+		sendMessage("0,"+document.getElementById("0").value)
+	});
+	document.getElementById("1").addEventListener("click",function() {
+		sendMessage("1,"+document.getElementById("1").value)
+	});
+	document.getElementById("2").addEventListener("click",function() {
+		sendMessage("2,"+document.getElementById("2").value)
+	});
+	document.getElementById("3").addEventListener("click",function() {
+		sendMessage("3,"+document.getElementById("3").value)
+	});
+	document.getElementById("0").addEventListener("touchmove",function() {
+		sendMessage("0,"+document.getElementById("0").value)
+	});
+	document.getElementById("1").addEventListener("touchmove",function() {
+		sendMessage("1,"+document.getElementById("1").value)
+	});
+	document.getElementById("2").addEventListener("touchmove",function() {
+		sendMessage("2,"+document.getElementById("2").value)
+	});
+	document.getElementById("3").addEventListener("touchmove",function() {
+		sendMessage("3,"+document.getElementById("3").value)
+	});
+	function sendMessage(message){console.log("envoi")
+		websocket.send(document.querySelector('input[name=liste]:checked').value+","+message)
+	}
+	let websocket = new WebSocket("ws://192.168.64.211:8081/AgroChip/ConnexionVache");
+	//let websocket = new WebSocket("ws://127.0.0.1:8081/AgroChip/ConnexionVache");
+</script>
+</body>
+</html>
